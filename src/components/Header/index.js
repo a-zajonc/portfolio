@@ -30,6 +30,7 @@ export function Header() {
           color="#494E5F"
           textTransform="uppercase"
           mt={{ md: "10px" }}
+          textAlign="center"
         >
           Adriana Słabosz
         </Heading>
