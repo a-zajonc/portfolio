@@ -18,7 +18,7 @@ export const data = [
   },
   {
     name: "Interactive Card Details Form",
-    link: "https://a-zajonc.github.io/interactive-card-details-form/",
+    link: "https://interactive-card-details-form-git-main-a-zajonc.vercel.app/",
     code: "https://github.com/a-zajonc/interactive-card-details-form",
     description:
       "This is a frontend challenge from FrontendMentor.io. Using Chakra UI I created a interative card form, where user can see the details of the card update in real-time.",
