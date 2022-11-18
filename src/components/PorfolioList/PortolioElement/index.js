@@ -30,8 +30,7 @@ export function PortfolioElement({
           bgColor="#FFE7D4"
           display="flex"
           flexDirection="row"
-          h="fit-content"
-          p="1rem"
+          h="80px"
           justifyContent="space-between"
           alignItems="center"
           color="#494E5F"
@@ -39,51 +38,52 @@ export function PortfolioElement({
             bgColor: "#edcbaf",
           }}
         >
-          <Text
-            color="#494E5F"
-            fontSize={{ sm: "15px", md: "20px", xl: "25px" }}
-            wordBreak="break-word"
-            w={{ sm: "50%", md: "70%", xl: "80%" }}
-            textTransform="uppercase"
-          >
-            {name}
-          </Text>
+          <AccordionButton h="100%">
+            <Text
+              color="#494E5F"
+              fontSize={{ sm: "15px", md: "20px", xl: "25px" }}
+              wordBreak="break-word"
+              w={{ sm: "50%", md: "70%", xl: "80%" }}
+              textTransform="uppercase"
+            >
+              {name}
+            </Text>
 
-          <Box
-            display="flex"
-            flexDirection="row"
-            w={{ sm: "50%", md: "40%", xl: "30%" }}
-            justifyContent={{
-              sm: "space-between",
-              md: "space-around",
-              xl: "space-around",
-            }}
-            alignItems="center"
-          >
-            <Link
-              href={website}
-              _hover={{ bgColor: "#e3c2a9" }}
-              p="10px"
-              isExternal
+            <Box
+              display="flex"
+              flexDirection="row"
+              w={{ sm: "50%", md: "40%", xl: "30%" }}
+              justifyContent={{
+                sm: "space-between",
+                md: "space-around",
+                xl: "space-around",
+              }}
+              alignItems="center"
             >
-              <FontAwesomeIcon
-                icon={faArrowUpRightFromSquare}
-                color="#494E5F"
-              />
-            </Link>
-            <Link
-              href={code}
-              _hover={{ bgColor: "#e3c2a9" }}
-              p="10px"
-              isExternal
-            >
-              <FontAwesomeIcon icon={faCode} color="#494E5F" />
-            </Link>
-            <AccordionButton w="fit-content" p="10px">
+              <Link
+                href={website}
+                _hover={{ bgColor: "#FFE7D4" }}
+                p="10px"
+                isExternal
+              >
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  color="#494E5F"
+                />
+              </Link>
+              <Link
+                href={code}
+                _hover={{ bgColor: "#FFE7D4" }}
+                p="10px"
+                isExternal
+              >
+                <FontAwesomeIcon icon={faCode} color="#494E5F" />
+              </Link>
               <FontAwesomeIcon icon={faInfo} color="#494E5F" />
-            </AccordionButton>
-          </Box>
+            </Box>
+          </AccordionButton>
         </Box>
+
         <AccordionPanel pb={4} color="white">
           <Box
             display="flex"
