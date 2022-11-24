@@ -1,11 +1,16 @@
-import previewTipCalculator from "./previewImages/previewTipCalculator.png";
-import previewCardComponent from "./previewImages/previewCardComponent.png";
-import previewTimeTrackingDashboard from "./previewImages/previewTimeTrackingDashboard.png";
-import previewResume from "./previewImages/previewResume.png";
-import previewInteractiveRatingComponent from "./previewImages/previewInteractiveRatingComponent.png";
-import previewInteractiveCardForm from "./previewImages/previewInteractiveCardForm.png";
+import previewImages from "./previewImages";
 
 export const data = [
+  {
+    name: "Social Media Dashboard",
+    link: "",
+    code: "https://github.com/a-zajonc/social-media-dashboard",
+    description:
+      "Social media dashboard with theme switcher is an a frontend challenge from FrontendMentor.io, which I completed in React using Chakra UI.",
+    information:
+      "It was a perfect challenge to exercise using Grid, learn about using Dark and Light Mode and practice with Express instead of database.json in src file. The porfolio webisite of this challenge is done without Express due to the fact that vercel platform is is serverless and designed for static frontends.",
+    preview: previewImages.previewSocialMediaDashboard,
+  },
   {
     name: "Tip Calculator App",
     link: "https://a-zajonc.github.io/tip-calculator-app/",
@@ -14,7 +19,7 @@ export const data = [
       "Tip Calculator App is an a frontend challenge from FrontendMentor.io, which I completed in React using Chakra UI.",
     information:
       "Main objective was to allow user to calculate the correct tip and total cost of the bill per person and get the look of the app as close to the design with the ability to see optimal layout of the app depending on the device's screen size.",
-    preview: previewTipCalculator,
+    preview: previewImages.previewTipCalculator,
   },
   {
     name: "Interactive Card Details Form",
@@ -24,7 +29,7 @@ export const data = [
       "This is a frontend challenge from FrontendMentor.io. Using Chakra UI I created a interative card form, where user can see the details of the card update in real-time.",
     information:
       "It also validates user's input and renders error messages, when user attempts to send invalid form",
-    preview: previewInteractiveCardForm,
+    preview: previewImages.previewInteractiveCardForm,
   },
   {
     name: "Time tracking dashboard",
@@ -34,7 +39,7 @@ export const data = [
       "It is a frontend challenge from FrontendMentor.io completed in React using Chakra UI. It was a nice practice of Grid use.",
     information:
       "The task was to build out dashboard according to design and get it looking as close to the design as possible, allowing to change the data according to daily, weekly or monthly preferences.",
-    preview: previewTimeTrackingDashboard,
+    preview: previewImages.previewTimeTrackingDashboard,
   },
   {
     name: "Interactive Rating Component",
@@ -44,7 +49,7 @@ export const data = [
       "This is a rating component challenge from FrontendMentor.io, which I completed using React and Chakra UI.",
     information:
       "It's main objective was to set state of user's rating and display a thank you component after a successfull rating.",
-    preview: previewInteractiveRatingComponent,
+    preview: previewImages.previewInteractiveRatingComponent,
   },
   {
     name: "Product Preview Card Component",
@@ -53,7 +58,7 @@ export const data = [
     description:
       "This is a frontend challenge from FrontendMentor.io, which only objective was to build out product preview card component and get it looking as close to the design as possible.",
     information: "I used React and Chakra UI in this project.",
-    preview: previewCardComponent,
+    preview: previewImages.previewCardComponent,
   },
   {
     name: "My Resume",
@@ -63,6 +68,6 @@ export const data = [
       "This is my resume website, which was created in React using Chakra UI. I also used i18next library, which allowed me to create bilingual website.",
     information:
       "Main agenda was to create a website, which is as close to my actual resume as possible and at the same time give it more responsive touch.",
-    preview: previewResume,
+    preview: previewImages.previewResume,
   },
 ];

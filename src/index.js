@@ -1,5 +1,6 @@
-import React from "react";
+import * as React from "react";
 import ReactDOM from "react-dom/client";
+import { ChakraProvider } from "@chakra-ui/react";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -12,7 +13,14 @@ const breakpoints = {
   xl: "1100px",
   "2xl": "1536px",
 };
-export const theme = extendTheme({
+const theme = extendTheme({
+  styles: {
+    global: {
+      body: {
+        bg: "white",
+      },
+    },
+  },
   fonts: {
     heading: "Montserrat",
     body: "Montserrat",
@@ -23,7 +31,9 @@ export const theme = extendTheme({
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider theme={theme}>
+      <App />
+    </ChakraProvider>
   </React.StrictMode>
 );
 
