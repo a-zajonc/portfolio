@@ -3,12 +3,12 @@ import previewImages from "./previewImages";
 export const data = [
   {
     name: "Social Media Dashboard",
-    link: "",
+    link: "https://social-media-dashboard-gray.vercel.app/",
     code: "https://github.com/a-zajonc/social-media-dashboard",
     description:
       "Social media dashboard with theme switcher is an a frontend challenge from FrontendMentor.io, which I completed in React using Chakra UI.",
     information:
-      "It was a perfect challenge to exercise using Grid, learn about using Dark and Light Mode and practice with Express instead of database.json in src file. The porfolio webisite of this challenge is done without Express due to the fact that vercel platform is is serverless and designed for static frontends.",
+      "It was a perfect challenge to exercise using Grid, learn about using Dark and Light Mode and practice with Express. Due to the fact that I used Express I had to introduce to the project Vercel Serverless Functions in order to set it up on Vercel.",
     preview: previewImages.previewSocialMediaDashboard,
   },
   {
