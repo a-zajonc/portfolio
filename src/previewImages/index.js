@@ -5,6 +5,7 @@ import previewResume from "./previewResume.png";
 import previewInteractiveRatingComponent from "./previewInteractiveRatingComponent.png";
 import previewInteractiveCardForm from "./previewInteractiveCardForm.png";
 import previewSocialMediaDashboard from "./previewSocialMediaDashboard.png";
+import previewInteractiveCommentsSection from "./previewInteractiveCommentsSection.png";
 
 const previewImages = {
   previewTipCalculator,
@@ -14,6 +15,7 @@ const previewImages = {
   previewInteractiveRatingComponent,
   previewSocialMediaDashboard,
   previewTimeTrackingDashboard,
+  previewInteractiveCommentsSection,
 };
 
 export default previewImages;
