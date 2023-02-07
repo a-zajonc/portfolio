@@ -2,6 +2,16 @@ import previewImages from "./previewImages";
 
 export const data = [
   {
+    name: "Interactive comments section",
+    link: "https://interactive-comments-section-b964j2hi9-a-zajonc.vercel.app/",
+    code: "https://github.com/a-zajonc/interactive-comments-section",
+    description:
+      "Interactive comments section is an a frontend challenge from FrontendMentor.io, which I completed in React using Chakra UI. Also, this was the first challenge which I completed using TypeScript.",
+    information:
+      "I used React Hooks ( e.g. useState, useContext ) to complete the challenge, which was to allow users not only post, but reply to comments and edit their already posted comments. Also, user can upvote and downvote comments.",
+    preview: previewImages.previewInteractiveCommentsSection,
+  },
+  {
     name: "Social Media Dashboard",
     link: "https://social-media-dashboard-gray.vercel.app/",
     code: "https://github.com/a-zajonc/social-media-dashboard",

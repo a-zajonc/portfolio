@@ -24,7 +24,7 @@ export function PortfolioElement({
   description,
 }) {
   return (
-    <Accordion allowToggle>
+    <Accordion allowToggle borderColor="#FFE7D4">
       <AccordionItem>
         <Box
           bgColor="#FFE7D4"

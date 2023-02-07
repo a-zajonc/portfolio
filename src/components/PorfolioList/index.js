@@ -3,9 +3,10 @@ import { PortfolioElement } from "./PortolioElement";
 import { data } from "../../database";
 
 const getData = () => {
-  return data.map((project) => {
+  return data.map((project, index) => {
     return (
       <PortfolioElement
+        key={index.toString()}
         name={project.name}
         website={project.link}
         code={project.code}
