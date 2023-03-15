@@ -2,6 +2,16 @@ import previewImages from "./previewImages";
 
 export const data = [
   {
+    name: "Dictionary Web App",
+    link: "https://dictionary-web-app-a-zajonc.vercel.app/",
+    code: "https://github.com/a-zajonc/dictionary-web-app",
+    description:
+      "Dictionary Web App is an a frontend challenge from FrontendMentor.io, which I completed in React using Chakra UI. This was the second challenge which I completed using TypeScript and first one where I used Figma.",
+    information:
+      "App uses free Dictionary Api. The user can search through available words. When stumbles upon lack of dictionary definition, error is rendered. Also, the app allows to hear the word,  see transcription ( if either is available), change dark and light themes and also font themes. ",
+    preview: previewImages.previewDictionaryWebApp,
+  },
+  {
     name: "Interactive comments section",
     link: "https://interactive-comments-section-b964j2hi9-a-zajonc.vercel.app/",
     code: "https://github.com/a-zajonc/interactive-comments-section",
