@@ -7,6 +7,7 @@ import previewInteractiveCardForm from "./previewInteractiveCardForm.png";
 import previewSocialMediaDashboard from "./previewSocialMediaDashboard.png";
 import previewInteractiveCommentsSection from "./previewInteractiveCommentsSection.png";
 import previewDictionaryWebApp from "./previewDictionaryWebApp.png";
+import previewDineRestaurantWebsite from "./previewDineRestaurantWebsite.png";
 
 const previewImages = {
   previewTipCalculator,
@@ -18,6 +19,7 @@ const previewImages = {
   previewTimeTrackingDashboard,
   previewInteractiveCommentsSection,
   previewDictionaryWebApp,
+  previewDineRestaurantWebsite,
 };
 
 export default previewImages;

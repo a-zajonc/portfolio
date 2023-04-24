@@ -2,13 +2,23 @@ import previewImages from "./previewImages";
 
 export const data = [
   {
+    name: "Dine restaurant website",
+    link: "https://dine-restaurant-website-seven.vercel.app/",
+    code: "https://github.com/a-zajonc/dine-restaurant-website",
+    description:
+      "Dine Restaurant Webiste is a Frontend Mentor challenge, which I completed base on Figma project, using Ract, TypeScript, Formik and pure CSS. ",
+    information:
+      "The website consists of front page with tricky design details and reservation page, where, using Formik, user can reserve a table and receive confirmation of the reservation. The website is suited for every screen type.",
+    preview: previewImages.previewDineRestaurantWebsite,
+  },
+  {
     name: "Dictionary Web App",
     link: "https://dictionary-web-app-a-zajonc.vercel.app/",
     code: "https://github.com/a-zajonc/dictionary-web-app",
     description:
       "Dictionary Web App is an a frontend challenge from FrontendMentor.io, which I completed in React using Chakra UI. This was the second challenge which I completed using TypeScript and first one where I used Figma.",
     information:
-      "App uses free Dictionary Api. The user can search through available words. When stumbles upon lack of dictionary definition, error is rendered. Also, the app allows to hear the word,  see transcription ( if either is available), change dark and light themes and also font themes. ",
+      "App uses free Dictionary Api. The user can search through available words. When stumbles upon lack of dictionary definition, error is rendered. Also, the app allows to hear the word,  see transcription ( if either is available ), change dark and light themes and also font themes. ",
     preview: previewImages.previewDictionaryWebApp,
   },
   {
